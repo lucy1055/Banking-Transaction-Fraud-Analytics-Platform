@@ -83,16 +83,16 @@ git clone https://github.com/lucy1055/Banking-Transaction-Fraud-Analytics-Platfo
 cd banking-fraud-analytics
 pip install -r requirements.txt
 ```
-## Initialize Database Schema:
+## Initialize Database Schema
 ```text
 psql -U postgres -d banking_db -f sql/schema.sql
 ```
-## Run the FastAPI Backend:
+## Run the FastAPI Backend
 ```text
 cd backend
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
-## Launch the Streamlit Analytics Dashboard:
+## Launch the Streamlit Analytics Dashboard
 ```text
 cd frontend
 streamlit run app.py
