@@ -1,1 +1,10 @@
-
+Libraries:
+Fastapi
+Uvicorn
+Streamlit
+Pandas
+Numpy
+Scikit-learn
+Joblib
+Psycopg2-binary
+Sqlalchemy
