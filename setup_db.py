@@ -2,7 +2,7 @@ import psycopg2
 
 try:
     # 1. Connect to default postgres database to create banking_db
-    conn = psycopg2.connect(dbname="postgres", user="postgres", password="password", host="localhost", port="5432")
+    conn = psycopg2.connect(dbname="postgres", user="postgres", password="Aadi@1512", host="localhost", port="5432")
     conn.autocommit = True
     cursor = conn.cursor()
 
@@ -17,7 +17,7 @@ try:
     conn.close()
 
     # 2. Connect to banking_db and create tables from schema.sql
-    conn2 = psycopg2.connect(dbname="banking_db", user="postgres", password="password", host="localhost", port="5432")
+    conn2 = psycopg2.connect(dbname="banking_db", user="postgres", password="Aadi@1512", host="localhost", port="5432")
     cursor2 = conn2.cursor()
 
     with open("sql/schema.sql", "r") as f:
