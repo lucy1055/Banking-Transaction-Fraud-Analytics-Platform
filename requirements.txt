@@ -1,4 +1,3 @@
-Libraries:
 Fastapi
 Uvicorn
 Streamlit
